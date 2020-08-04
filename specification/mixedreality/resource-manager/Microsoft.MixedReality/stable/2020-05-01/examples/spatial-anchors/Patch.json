@@ -5,7 +5,7 @@
     "accountName": "MyAccount",
     "api-version": "2020-05-01",
     "spatialAnchorsAccount": {
-      "location": "eastus2euap",
+      "location": "eastus2",
       "tags": {
         "heroine": "juliet",
         "hero": "romeo"
@@ -23,7 +23,7 @@
           "heroine": "juliet",
           "hero": "romeo"
         },
-        "location": "eastus2euap",
+        "location": "eastus2",
         "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/MyAccount",
         "name": "MyAccount",
         "type": "Microsoft.MixedReality/spatialAnchorsAccounts"

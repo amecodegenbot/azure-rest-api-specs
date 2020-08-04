@@ -13,7 +13,7 @@
               "accountDomain": "mixedreality.azure.com"
             },
             "tags": {},
-            "location": "eastus2euap",
+            "location": "eastus2",
             "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/alpha",
             "name": "alpha",
             "type": "Microsoft.MixedReality/spatialAnchorsAccounts"
@@ -24,7 +24,7 @@
               "accountDomain": "mixedreality.azure.com"
             },
             "tags": {},
-            "location": "eastus2euap",
+            "location": "eastus2",
             "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/spatialAnchorsAccounts/omega",
             "name": "omega",
             "type": "Microsoft.MixedReality/spatialAnchorsAccounts"

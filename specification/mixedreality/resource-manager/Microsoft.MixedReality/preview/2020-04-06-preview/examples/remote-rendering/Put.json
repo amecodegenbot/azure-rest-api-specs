@@ -8,7 +8,7 @@
       "identity": {
         "type": "SystemAssigned"
       },
-      "location": "eastus2euap"
+      "location": "eastus2"
     }
   },
   "responses": {
@@ -22,7 +22,7 @@
         "identity": {
           "type": "SystemAssigned"
         },
-        "location": "eastus2euap",
+        "location": "eastus2",
         "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/remoteRenderingAccounts/MyAccount",
         "name": "MyAccount",
         "type": "Microsoft.MixedReality/remoteRenderingAccounts"
@@ -38,7 +38,7 @@
         "identity": {
           "type": "SystemAssigned"
         },
-        "location": "eastus2euap",
+        "location": "eastus2",
         "id": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/MyResourceGroup/providers/Microsoft.MixedReality/remoteRenderingAccounts/MyAccount",
         "name": "MyAccount",
         "type": "Microsoft.MixedReality/remoteRenderingAccounts"

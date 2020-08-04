@@ -4,9 +4,13 @@ These settings apply only when `--cli` is specified on the command line.
 
 ``` yaml $(cli)
 cli:
-  cli-name: mixed-reality
+  cli-name: mixedreality
   package-name: azure-mgmt-mixedreality
   namespace: azure.mgmt.mixedreality
+  cli-directive:
+    - where:
+        operation: CheckNameAvailabilityLocal
+      hidden: true
   test-scenario:
     - name: Create spatial anchor account
     - name: Create remote rendering account
@@ -23,9 +27,7 @@ cli:
     - name: Regenerate remote rendering account keys
     - name: Regenerate spatial anchors account keys
     - name: Update remote rendering account
-      disabled: true
     - name: Update spatial anchors account
-      disabled: true
     - name: CheckLocalNameAvailability
       disabled: true
     - name: Delete spatial anchors account

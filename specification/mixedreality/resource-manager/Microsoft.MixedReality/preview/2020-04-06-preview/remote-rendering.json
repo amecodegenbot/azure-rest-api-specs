@@ -355,7 +355,13 @@
             "$ref": "./common.json#/parameters/accountNameParameter"
           },
           {
-            "$ref": "./common.json#/parameters/accountKeyRegenerateParameter"
+            "name": "regenerate",
+            "in": "body",
+            "description": "The account payload.",
+            "required": true,
+            "schema": {
+              "$ref": "./common.json#/definitions/AccountKeyRegenerateRequest"
+            }
           },
           {
             "$ref": "./common.json#/parameters/apiVersionParameter"
