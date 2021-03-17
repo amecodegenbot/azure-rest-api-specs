@@ -9,6 +9,7 @@ az:
   namespace: azure.mgmt.desktopvirtualization
   replace-datetime: true
   disable-checks: true
+  use-test-step-param: true
 az-output-folder: $(azure-cli-extension-folder)/src/desktopvirtualization
 python-sdk-output-folder: "$(az-output-folder)/azext_desktopvirtualization/vendored_sdks/desktopvirtualization"
 sdk-flatten: true

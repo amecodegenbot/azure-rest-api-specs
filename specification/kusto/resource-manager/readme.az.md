@@ -9,6 +9,7 @@ az:
   package-name: azure-mgmt-kusto
   disable-checks: true
   randomize-names: true
+  use-test-step-param: true
 az-output-folder: $(azure-cli-extension-folder)/src/kusto
 python-sdk-output-folder: "$(az-output-folder)/azext_kusto/vendored_sdks/kusto"
 
